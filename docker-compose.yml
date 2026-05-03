@@ -1,0 +1,36 @@
+# Aşama 2 — Lokal Qdrant + PostgreSQL/pgvector
+# Başlat: docker compose up -d
+# Qdrant UI: http://localhost:6333/dashboard
+# Postgres: localhost:5433 (pgvector; host 5433 → konteyner 5432)
+# Adminer (Postgres arayüzü): http://localhost:8888 — Sistem: PostgreSQL, Sunucu: postgres,
+#   Kullanıcı: practice, Şifre: practice, Veritabanı: vectordb
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: practice
+      POSTGRES_PASSWORD: practice
+      POSTGRES_DB: vectordb
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgvector_data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:4
+    ports:
+      - "8888:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  qdrant_storage:
+  pgvector_data:

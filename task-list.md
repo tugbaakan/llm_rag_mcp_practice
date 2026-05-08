@@ -38,7 +38,7 @@
 
 ## Aşama 3 — RAG Mimarisi
 
-- [ ] **Naive RAG kur**
+- [x] **Naive RAG kur**
   Bir PDF'i chunk'la, embed et, vektör DB'ye yükle. Sorgu → retrieval → LLM cevabı pipeline'ı yaz.
 
 - [ ] **LangChain ile RAG**

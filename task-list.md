@@ -44,7 +44,7 @@
 - [x] **LangChain ile RAG**
   `RetrievalQA` veya LCEL kullanarak aynı pipeline'ı LangChain ile yeniden yap.
 
-- [ ] **Reranking ekle**
+- [x] **Reranking ekle**
   Cohere Rerank veya cross-encoder ile retrieval kalitesini artır, farkı ölç.
 
 - [ ] **Hibrit arama dene**

@@ -47,7 +47,7 @@
 - [x] **Reranking ekle**
   Cohere Rerank veya cross-encoder ile retrieval kalitesini artır, farkı ölç.
 
-- [ ] **Hibrit arama dene**
+- [x] **Hibrit arama dene**
   BM25 (keyword) + dense vector arama kombinasyonunu uygula.
 
 ---

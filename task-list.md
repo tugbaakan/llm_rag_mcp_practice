@@ -70,17 +70,17 @@
 
 ## Aşama 5 — MCP Sunucu / İstemci
 
-- [ ] **MCP'yi anla**
-  Model Context Protocol spec'ini oku, tool/resource/prompt kavramlarını öğren.
+- [x] **MCP'yi anla**
+  Model Context Protocol spec'ini oku, tool/resource/prompt kavramlarını öğren. *(Bkz. `stage5_mcp_concepts.py`.)*
 
-- [ ] **Basit bir MCP sunucusu yaz**
-  `@modelcontextprotocol/sdk` (JS) veya `mcp` (Python) ile tek tool'lu bir sunucu yaz.
+- [x] **Basit bir MCP sunucusu yaz**
+  `@modelcontextprotocol/sdk` (JS) veya `mcp` (Python) ile tek tool'lu bir sunucu yaz. *(Bkz. `stage5_mcp_server.py`.)*
 
-- [ ] **MCP istemcisi yaz**
-  Kendi sunucuna bağlanan bir istemci yaz, tool çağrısını manuel tetikle.
+- [x] **MCP istemcisi yaz**
+  Kendi sunucuna bağlanan bir istemci yaz, tool çağrısını manuel tetikle. *(Bkz. `stage5_mcp_client.py`.)*
 
-- [ ] **Claude Desktop ile entegrasyon**
-  Yazdığın MCP sunucusunu Claude Desktop config'ine ekle, Claude'un tool'unu kullandığını gözlemle.
+- [x] **Claude Desktop ile entegrasyon**
+  Yazdığın MCP sunucusunu Claude Desktop config'ine ekle, Claude'un tool'unu kullandığını gözlemle. *(Bkz. `stage5_claude_desktop_setup.py`.)*
 
 ---
 

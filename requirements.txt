@@ -23,3 +23,4 @@ pyautogen>=0.7.0
 autogen-ext[groq,openai]>=0.7.0
 # SK 1.32: planners modülü (FunctionCallingStepwisePlanner); 1.35+ sürümlerde kaldırıldı
 semantic-kernel==1.32.0
+mcp>=1.0.0

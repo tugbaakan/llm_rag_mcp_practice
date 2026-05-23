@@ -63,8 +63,8 @@
 - [x] **AutoGen ile multi-agent**
   İki ajan oluştur (AssistantAgent + UserProxyAgent), birbirleriyle konuşturan bir task çöz. *(Bkz. `stage4_autogen_multi_agent.py`.)*
 
-- [ ] **Semantic Kernel dene**
-  .NET veya Python'da SK ile bir "skill" ve "planner" oluştur.
+- [x] **Semantic Kernel dene**
+  .NET veya Python'da SK ile bir "skill" ve "planner" oluştur. *(Bkz. `stage4_semantic_kernel_planner.py`.)*
 
 ---
 

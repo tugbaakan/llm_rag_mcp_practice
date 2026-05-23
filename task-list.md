@@ -57,8 +57,8 @@
 - [x] **LangChain Agent kur**
   Elimde 3 cumhuriyet altını, 5 gr altın, 100 dolar banknot var. Web search + calculator tool'ları kullanarak, bunların toplam değerini günün kuru ile hesaplayan bir ReAct agent yaz. *(Bkz. `stage4_react_agent.py`.)*
 
-- [ ] **LangGraph ile stateful agent**
-  Bir graph tanımla, düğümler arası state akışını ve döngüyü anla.
+- [x] **LangGraph ile stateful agent**
+  Bir graph tanımla, düğümler arası state akışını ve döngüyü anla. *(Bkz. `stage4_langgraph_stateful.py`.)*
 
 - [ ] **AutoGen ile multi-agent**
   İki ajan oluştur (AssistantAgent + UserProxyAgent), birbirleriyle konuşturan bir task çöz.
